@@ -8,7 +8,7 @@ namespace WebApplication1.Controllers
 {
     public class MessangerController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Indexddsdsfdsf()
         {
             return View();
         }
