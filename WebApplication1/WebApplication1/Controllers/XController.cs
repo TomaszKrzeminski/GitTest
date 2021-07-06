@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
             int x = 1;
             int y = 2;
             int c = x + y;
+            int z = 100;
             return View();
         }
     }
