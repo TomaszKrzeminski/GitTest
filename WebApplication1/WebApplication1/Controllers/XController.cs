@@ -10,6 +10,9 @@ namespace WebApplication1.Controllers
     {
         public IActionResult ControllerX()
         {
+            int x = 1;
+            int y = 2;
+            int c = x + y;
             return View();
         }
     }
