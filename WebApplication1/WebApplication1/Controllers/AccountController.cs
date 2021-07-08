@@ -60,7 +60,7 @@ namespace WebApplication1.Controllers
         
         
         
-        public IActionResut Start()
+        public IActionResult Start()
         {
         string Text="Zmiany w GitHub";
         return View(Text);
