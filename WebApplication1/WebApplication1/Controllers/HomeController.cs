@@ -10,6 +10,15 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public IActionResult Computer2()
+        {
+            int x = 1;
+            int y = 2;
+            int c = x + y;
+            int z = 100;
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();

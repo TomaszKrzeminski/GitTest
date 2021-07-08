@@ -8,6 +8,18 @@ namespace WebApplication1.Controllers
 {
     public class XController : Controller
     {
+
+        public IActionResult Computer1()
+        {
+            int x = 1;
+            int y = 2;
+            int c = x + y;
+            int z = 100;
+            return View();
+        }
+
+
+
         public IActionResult ControllerX()
         {
             int x = 1;
