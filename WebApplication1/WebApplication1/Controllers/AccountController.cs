@@ -16,6 +16,13 @@ using WebApplication1.Services;
 
 namespace WebApplication1.Controllers
 {
+
+
+
+
+
+
+
     [Authorize]
     [Route("[controller]/[action]")]
     public class AccountController : Controller
@@ -50,6 +57,15 @@ namespace WebApplication1.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
+        
+        
+        
+        public IActionResut Start()
+        {
+        string Text="Zmiany w GitHub";
+        return View(Text);
+        }
+        
 
         [HttpPost]
         [AllowAnonymous]
